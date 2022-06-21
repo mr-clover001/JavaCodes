@@ -40,5 +40,6 @@ public class TestEncapsulation {
         acc.setName("Sonoo Jaiswal");
         acc.setEmail("sonoojaiswal@javatpoint.com");
         acc.setAmount(500000f);
+        System.out.println(acc.getAcc_no()+" "+acc.getName()+" "+acc.getEmail()+" "+acc.getAmount());
     }
 }
