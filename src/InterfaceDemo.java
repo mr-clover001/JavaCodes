@@ -18,6 +18,7 @@ interface Money{
 public class InterfaceDemo {
 
     public static void main(String[] args) {
-
+     Money d = new Debit();
+     d.Operation();
     }
 }
