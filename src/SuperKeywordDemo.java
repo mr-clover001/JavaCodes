@@ -9,10 +9,21 @@ class Fox extends Animal{
     }
 }
 
+class Elephant extends Animal{
+    String color="Grey";
+    void printColor(){
+        System.out.println(color);//prints color of Dog class
+        System.out.println(super.color);//prints color of Animal class
+    }
+}
+
 public class SuperKeywordDemo {
 
     public static void main(String args[]){
-        Fox d = new Fox();
-        d.printColor();
+        Fox f = new Fox();
+        Elephant e = new Elephant();
+
+        f.printColor();
+        e.printColor();
     }
 }
