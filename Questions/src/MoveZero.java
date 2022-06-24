@@ -2,8 +2,20 @@ public class MoveZero {
 
     public static void main(String[] args) {
 
-        int input[] = new int[]{1,4,2,0,6,0,4};
+        int[] input = {1, 0, 6, 0, 4};
 
-        int j;
+        int j = 0;
+//        for (int i = 0; i < input.length; i++){
+//            if(input[i]!=0){
+//                int temp = input[j];
+//                input[j] = input[i];
+//                input[i] = temp;
+//                j++;
+//
+//            }
+//        }
+        for (int element : input) {
+            System.out.print(element + " ");
+        }
     }
 }
