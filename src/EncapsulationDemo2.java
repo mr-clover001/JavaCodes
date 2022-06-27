@@ -1,5 +1,5 @@
 class Employee{
-   private int num ;
+   private int num = 5;
     private String name;
 
     public void display1(int num, String name){
@@ -16,8 +16,9 @@ public class EncapsulationDemo2 {
    }
     public static void main(String[] args) {
 
+       Employee em = new Employee();
        EncapsulationDemo2 en = new EncapsulationDemo2();
        en.display(123, 20000, "Anoop sharma");
-
+      em.display1(45, "Sumit Sharma");
     }
 }
